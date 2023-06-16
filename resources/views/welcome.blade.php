@@ -78,7 +78,7 @@
 
                     <div
                         class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
-                        <a href="{{ route('login') }}" class="btn btn-primary ml-lg-3 primary-shadow">Connexion</a>
+                        <a href="{{ route('login') }}" class="btn btn-primary ml-lg-3 primary-shadow">Connexion </a>
                         <a href="{{ route('register') }}" class="btn btn-primary ml-lg-3 primary-shadow">Inscription</a>
                         <div class="form-submit-group">
 
