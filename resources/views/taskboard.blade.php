@@ -38,8 +38,7 @@
                             <div class="header-search">
                                 <div class="input-group">
                                     <span class="input-group-addon search-close"><i class="ik ik-x"></i></span>
-                                    <input type="text" class="form-control">
-                                    <span class="input-group-addon search-btn"><i class="ik ik-search"></i></span>
+                                   
                                 </div>
                             </div>
                             <button type="button" id="navbar-fullscreen" class="nav-link"><i class="ik ik-maximize"></i></button>
@@ -61,13 +60,14 @@
                                                 <span class="media-content">{{ $task->start_date }}</span>
                                                   <span class="media-content">{{ $task->end_date }}</span>
                                             </span>
-                                        </a> @endforeach
+                                        </a> 
+                                    @endforeach
 
                                     </div>
                                     <div class="footer">
-    </div>
-    </div>
-    </div>
+                                </div>
+                                </div>
+                                </div>
 
 
     <button type="button" class="nav-link ml-10" id="apps_modal_btn" data-toggle="modal" data-target="#appsModal"><i
@@ -81,13 +81,11 @@
                                         <img class="avatar"  src="{{ asset('images/images/profile.png') }}" alt=""></a>
 
                            @endif</a>
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item" href="profile.html"><i class="ik ik-user dropdown-icon"></i> Profile</a>
-            <a class="dropdown-item" href="#"><i class="ik ik-settings dropdown-icon"></i> Settings</a>
-            <a class="dropdown-item" href="#"><span class="float-right"><span
-                        class="badge badge-primary">6</span></span><i class="ik ik-mail dropdown-icon"></i> Inbox</a>
-            <a class="dropdown-item" href="#"><i class="ik ik-navigation dropdown-icon"></i> Message</a>
-            <a class="dropdown-item" href="login.html"><i class="ik ik-power dropdown-icon"></i> Logout</a>
+   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="{{ url('/home') }}"><i class="ik ik-user dropdown-icon"></i> Profil</a>
+            <a class="dropdown-item" href="{{ url('/dashboard') }}"><i class="ik ik-bar-chart-2"></i> Dashboard </a>
+            <a class="dropdown-item" href="{{ url('/taskboard') }}"><i class="ik ik-server"></i> Taskboard</a>
+            <a class="dropdown-item" href="{{ url('/hel') }}"><i class="ik ik-calendar"></i> Ma calendrier</a>
         </div>
     </div>
 

@@ -49,9 +49,8 @@
         <div class="container-fluid ">
             <nav class="navbar navbar-expand-lg navbar-light ms-5">
                 <a class="navbar-brand ms-5" href="{{ route('app') }}" style="margin-left: 50px">
+                    <img class="rounded-circle img-fluid" src="images/team/logo.png" style="width:170px;height:170px;">
 
-                    <H4><strong>NADHEM <br>
-                            WAKTEK</strong></H4>
                 </a>
                 <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbar"
                     aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -134,8 +133,8 @@
                     alt="">
                 <img class="img-fluid hero-bg-6 up-down-animation" src="images/background-shape/seo-ball-1.png"
                     alt="">
-                <img class="img-fluid hero-bg-7 left-right-animation" src="images/background-shape/yellow-triangle.png"
-                    alt="">
+                <img class="img-fluid hero-bg-7 left-right-animation"
+                    src="images/background-shape/yellow-triangle.png" alt="">
                 <img class="img-fluid hero-bg-8 up-down-animation"
                     src="images/background-shape/service-half-cycle.png" alt="">
                 <img class="img-fluid hero-bg-9 up-down-animation" src="images/background-shape/team-bg-triangle.png"
@@ -150,19 +149,20 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-title">Nos fonctionalités</h2>
-                    <p class="mb-100">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident</p>
+                    <p class="mb-100">
+                        <br>
+                    </p>
                 </div>
                 <!-- feature item -->
                 <div class="col-md-6 mb-80">
                     <div class="d-flex feature-item">
                         <div>
-                            <i class="ti-ruler-pencil feature-icon mr-4"></i>
+                            <i class="ti-calendar feature-icon mr-4"></i>
                         </div>
                         <div>
                             <h4>Calendrier</h4>
-                            <p>Consectetur adipiscing elit donec tempus
-                                pellentesque dui.</p>
+                            <p>Découvrez notre calendrier interactif, l'outil idéal pour planifier tous vos événements
+                                avec facilité et précision.</p>
                         </div>
                     </div>
                 </div>
@@ -174,8 +174,8 @@
                         </div>
                         <div>
                             <h4>Notes</h4>
-                            <p>Consectetur adipiscing elit donec tempus
-                                pellentesque dui.</p>
+                            <p>Créez des notes d'événements avec facilité sur notre site de planification. Ajoutez tous
+                                les détails importants pour garantir le succès de votre événement.</p>
                         </div>
                     </div>
                 </div>
@@ -183,12 +183,12 @@
                 <div class="col-md-6 mb-80">
                     <div class="d-flex feature-item">
                         <div>
-                            <i class="ti-split-v-alt feature-icon mr-4"></i>
+                            <i class="ti-layout feature-icon mr-4"></i>
                         </div>
                         <div>
                             <h4>Taskboard</h4>
-                            <p>Consectetur adipiscing elit donec tempus
-                                pellentesque dui.</p>
+                            <p>Un taskboard innovant, est conçu pour vous informer en temps réel des événements passés,
+                                présents et à venir..</p>
                         </div>
                     </div>
                 </div>
@@ -196,12 +196,13 @@
                 <div class="col-md-6 mb-80">
                     <div class="d-flex feature-item">
                         <div>
-                            <i class="ti-layers-alt feature-icon mr-4"></i>
+                            <i class="ti-dashboard feature-icon mr-4"></i>
                         </div>
                         <div>
                             <h4>Dashboard</h4>
-                            <p>Consectetur adipiscing elit donec tempus
-                                pellentesque dui.</p>
+                            <p>Le dashboard de notre site de planification d'événements offre une vue claire et complète
+                                de toutes les informations essentielles nécessaires pour organiser et gérer vos
+                                événements avec succès.</p>
                         </div>
                     </div>
                 </div>
@@ -218,16 +219,18 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="seo-image">
-                        <img class="img-fluid" src="images/marketing/cal.jpeg" width="150%" height="90%">
+                        <img class="img-fluid" src="images/marketing/cal.jpeg" width="150%" height="90%"
+                            style="width:600px ;height:450px">
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <h2 class="section-title">A Complete Range Of SEO Marketing Services!</h2>
-                    <p>Far far away, behind the word mountains, far
-                        from the countries Vokalia and Consonantia.<br>
-                        There live the blind texts. Separated they
-                        live in Bookmarksgrove right at the coast of
-                        the Semantics, a large language ocean.
+                    <h2 class="section-title">Calendrier</h2>
+                    <p style="width:500px;height:500px">Découvrez notre calendrier interactif, votre compagnon ultime
+                        pour la planification d'événements.
+                        Organisez facilement votre emploi du temps, visualisez les dates clés et gardez une trace de
+                        tous les événements importants grâce à notre interface conviviale et intuitive. Avec notre
+                        calendrier, vous pouvez créer des événements personnalisés, inviter des participants et même
+                        recevoir des rappels automatiques pour ne jamais manquer une occasion spéciale.
                     </p>
                 </div>
             </div>
@@ -241,26 +244,84 @@
         <img class="seo-bg-shape-3 left-right-animation" src="images/background-shape/seo-ball-2.png" alt="bg-shape">
     </section>
     <!-- /marketing -->
+    <section class="section-lg service">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-5 order-2 order-md-1">
+                    <h2 class="section-title">Note</h2>
+                    <p class="mb-4">La note est un outil essentiel dans notre site de planification d'événements,
+                        permettant aux utilisateurs de capturer et d'organiser facilement leurs idées, leurs événements
+                        et leurs inspirations. Que ce soit pour noter les détails clés d'un événement, établir une liste
+                        de choses à faire ou simplement prendre des notes créatives, notre fonctionnalité de note offre
+                        une flexibilité totale pour rendre la planification d'événements plus efficace et agréable.</p>
 
+                </div>
+                <div class="col-md-7 order-1 order-md-2">
+                    <img class="img-fluid layer-3" src="images/marketing/note.jpeg" alt="service" width="150%"
+                        height="90%" style="width:600px ;height:450px">
+                </div>
+            </div>
+        </div>
+        <!-- background image -->
+        <img class="img-fluid service-bg" src="images/backgrounds/service-bg.png" alt="service-bg">
+        <!-- background shapes -->
+        <img class="service-bg-shape-1 up-down-animation" src="images/background-shape/service-half-cycle.png"
+            alt="background-shape">
+        <img class="service-bg-shape-2 left-right-animation" src="images/background-shape/feature-bg-2.png"
+            alt="background-shape">
+    </section>
+    <section class="section-lg seo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="seo-image">
+                        <img class="img-fluid layer-3" src="images/service/service.png" alt="service"
+                            width="150%" height="90%" style="width:600px ;height:450px">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h2 class="section-title">Taskboard</h2>
+                    <p style="width:500px;height:500px">La taskboard du site de planification des événements constitue
+                        une plateforme visuelle dynamique
+                        qui regroupe de manière organisée les événements en cours, passés et à venir. Elle offre une vue
+                        globale et détaillée de toutes les événements nécessaires à la réalisation des événements,
+                        permettant ainsi une gestion efficace du processus de planification. Cette interface intuitive
+                        facilite la coordination des équipes, la répartition des responsabilités et le suivi des
+                        progrès, tout en favorisant une communication transparente et fluide entre les différents
+                        acteurs impliqués.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- background image -->
+        <img class="img-fluid seo-bg" src="images/backgrounds/seo-bg.png" alt="seo-bg">
+        <!-- background-shape -->
+        <img class="seo-bg-shape-1 left-right-animation" src="images/background-shape/seo-ball-1.png" alt="bg-shape">
+        <img class="seo-bg-shape-2 up-down-animation" src="images/background-shape/seo-half-cycle.png"
+            alt="bg-shape">
+        <img class="seo-bg-shape-3 left-right-animation" src="images/background-shape/seo-ball-2.png" alt="bg-shape">
+    </section>
     <!-- service -->
     <section class="section-lg service">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-5 order-2 order-md-1">
-                    <h2 class="section-title">Powerful Layout From Top To Bottom</h2>
-                    <p class="mb-4">Far far away, behind the word mountains,
-                        far from the countries Vokalia and Consonantia,
-                        there live the blind texts. Separated they
-                        live in Bookmarksgrove right at the coast of the
-                        Semantics, a large language ocean.</p>
-                    <ul class="pl-0 service-list">
-                        <li><i class="ti-layout-tab-window text-purple"></i>Responsive on any device</li>
-                        <li><i class="ti-layout-placeholder text-purple"></i>Very easy to customize</li>
-                        <li><i class="ti-support text-purple"></i>Effective support</li>
-                    </ul>
+                    <h2 class="section-title">Dashboard</h2>
+                    <p class="mb-4">
+                        Le dashboard du site de planification d'événements offre une expérience
+                        utilisateur conviviale et puissante, regroupant de manière intelligente toutes les
+                        fonctionnalités nécessaires pour orchestrer des événements réussis. Grâce à une interface
+                        soigneusement conçue, les utilisateurs peuvent visualiser en temps réel les détails de leurs
+                        événements, gérer les réservations de lieux, coordonner les fournisseurs, planifier les
+                        activités et suivre les invitations et les confirmations.
+                        <br> Avec ce tableau de bord complet et intuitif, la planification d'événements devient plus
+                        simple, plus efficace et plus gratifiante pour tous les organisateurs."
+                    </p>
+
                 </div>
                 <div class="col-md-7 order-1 order-md-2">
-                    <img class="img-fluid layer-3" src="images/service/service.png" alt="service">
+                    <img class="img-fluid layer-3" src="images/hero-area/banner.png" alt="service" width="150%"
+                        height="90%" style="width:600px ;height:450px">
                 </div>
             </div>
         </div>
@@ -279,28 +340,34 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-title">Our Team</h2>
-                    <p class="mb-100">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                        eu<br>
-                        fugiat nulla pariatur. Excepteur sint occaecat </p>
+                    <h2 class="section-title">Notre équipe</h2>
+                    <p class="mb-100"><strong>Voici notre équipe, qui développe avec passion cette application
+                        </strong></p>
                 </div>
             </div>
             <div class="col-10 mx-auto">
                 <div class="team-slider">
                     <!-- team-member -->
+                    <!-- team-member -->
                     <div class="team-member">
                         <div class="d-flex mb-4">
                             <div class="mr-3">
-                                <img class="rounded-circle img-fluid" src="images/team/team-1.jpg" alt="team-member">
+                                <img class="rounded-circle img-fluid" src="images/team/team-111.jpg"
+                                    alt="team-member">
                             </div>
                             <div class="align-self-center">
-                                <h4>Becroft</h4>
-                                <h6 class="text-color">web designer</h6>
+                                <h4>Imen MEJRI</h4>
+
                             </div>
                         </div>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. S eparated they</p>
+
                     </div>
+                    <!-- team-member -->
+
+                    <!-- team-member -->
+
+                    <!-- team-member -->
+
                     <!-- team-member -->
                     <div class="team-member">
                         <div class="d-flex mb-4">
@@ -308,56 +375,11 @@
                                 <img class="rounded-circle img-fluid" src="images/team/team-2.jpg" alt="team-member">
                             </div>
                             <div class="align-self-center">
-                                <h4>John Doe</h4>
-                                <h6 class="text-color">web developer</h6>
+                                <h4>Hiba GHRAIRI</h4>
+
                             </div>
                         </div>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. S eparated they</p>
-                    </div>
-                    <!-- team-member -->
-                    <div class="team-member">
-                        <div class="d-flex mb-4">
-                            <div class="mr-3">
-                                <img class="rounded-circle img-fluid" src="images/team/team-3.jpg" alt="team-member">
-                            </div>
-                            <div class="align-self-center">
-                                <h4>Erik Ligas</h4>
-                                <h6 class="text-color">Programmer</h6>
-                            </div>
-                        </div>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live
-                            the blind texts. S eparated they</p>
-                    </div>
-                    <!-- team-member -->
-                    <div class="team-member">
-                        <div class="d-flex mb-4">
-                            <div class="mr-3">
-                                <img class="rounded-circle img-fluid" src="images/team/team-1.jpg" alt="team-member">
-                            </div>
-                            <div class="align-self-center">
-                                <h4>Erik Ligas</h4>
-                                <h6 class="text-color">Programmer</h6>
-                            </div>
-                        </div>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live
-                            the blind texts. S eparated they</p>
-                    </div>
-                    <!-- team-member -->
-                    <div class="team-member">
-                        <div class="d-flex mb-4">
-                            <div class="mr-3">
-                                <img class="rounded-circle img-fluid" src="images/team/team-2.jpg" alt="team-member">
-                            </div>
-                            <div class="align-self-center">
-                                <h4>John Doe</h4>
-                                <h6 class="text-color">web developer</h6>
-                            </div>
-                        </div>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. S eparated they</p>
+
                     </div>
                 </div>
             </div>
@@ -374,40 +396,10 @@
         <img class="team-bg-shape-4 up-down-animation img-fluid" src="images/background-shape/team-bg-dots.png"
             alt="background-shape">
     </section>
-    <!-- /team -->
 
-    <!-- pricing -->
+    <button onclick="scrollToTop()" id="scroll-button" title="Go to top">Up</button>
 
-    <!-- /pricing -->
 
-    <!-- client logo slider -->
-
-    <!-- /client logo slider -->
-
-    <!-- newsletter -->
-    <section class="newsletter">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Subscribe to our newsletter</h2>
-                    <p class="mb-5">Receive updates, news and deals</p>
-                </div>
-                <div class="col-lg-8 col-sm-10 col-12 mx-auto">
-                    <form action="#">
-                        <div class="input-wrapper position-relative">
-                            <input type="email" class="newsletter-form" id="newsletter"
-                                placeholder="Enter your email">
-                            <button type="submit" value="send" class="btn newsletter-btn">subscribe</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <!-- background shapes -->
-        <img class="newsletter-bg-shape left-right-animation" src="images/background-shape/seo-ball-2.png"
-            alt="background-shape">
-    </section>
-    <!-- /newsletter -->
 
     <!-- footer -->
     <footer class="footer-section footer" style="background-image: url(images/backgrounds/footer-bg.png);">
@@ -416,20 +408,27 @@
                 <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
                     <!-- logo -->
                     <a href="index.html">
-                        <H4><STRONG> NADHEM WAKTEK</STRONG></H4>
+                        <h3><strong>NADHEM WAKTEK</strong> </h3>
                     </a>
                 </div>
                 <!-- footer menu -->
                 <nav class="col-lg-8 align-self-center mb-5">
                     <ul class="list-inline text-lg-right text-center footer-menu">
-                        <li class="list-inline-item active"><a href="index.html">Home</a></li>
+                        <li class="list-inline-item active"><a href="{{ route('app') }}">Acceuil</a></li>
                         <li class="list-inline-item"><a class="page-scroll" href="#feature">Nos fonctionalités</a>
                         </li>
                         <li class="list-inline-item"><a href="{{ url('/imen') }}">A propos de nous</a></li>
-                        <li class="list-inline-item"><a class="page-scroll" href="#team">Nos objectifs</a></li>
+                        <li class="list-inline-item"><a class="page-scroll" href="{{ url('/hiba') }}">Nos
+                                objectifs</a></li>
 
                     </ul>
                 </nav>
+
+
+
+
+
+
                 <!-- footer social icon -->
                 <nav class="col-12">
                     <ul class="list-inline text-lg-right text-center social-icon">
@@ -437,11 +436,9 @@
                             <a class="facebook" href="#"><i class="ti-facebook"></i></a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="twitter" href="#"><i class="ti-twitter-alt"></i></a>
+                            <a class="email" href="mailto:your-email@example.com"><i class="ti-email"></i></a>
                         </li>
-                        <li class="list-inline-item">
-                            <a class="linkedin" href="#"><i class="ti-linkedin"></i></a>
-                        </li>
+
                         <li class="list-inline-item">
                             <a class="black" href="#"><i class="ti-github"></i></a>
                         </li>
@@ -464,7 +461,44 @@
     <script src="plugins/aos/aos.js"></script>
     <!-- Main Script -->
     <script src="js/script.js"></script>
+    <script>
+        // JavaScript function to scroll to the top of the page
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
 
+        // Show or hide the scroll button based on scrolling position
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scroll-button").style.display = "block";
+            } else {
+                document.getElementById("scroll-button").style.display = "none";
+            }
+        };
+    </script>
+
+    <style>
+        /* CSS for the scroll button */
+        #scroll-button {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            border: none;
+            outline: none;
+            background-color: #663399;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 50%;
+        }
+
+        #scroll-button:hover {
+            background-color: #777;
+        }
+    </style>
 </body>
 
 </html>

@@ -17,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- ** Plugins Needed for the Project ** -->
+    <!-- * Plugins Needed for the Project * -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
     <!-- themefy-icon -->
@@ -43,11 +43,12 @@
 
     <!-- navigation -->
     <section class="fixed-top navigation">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="{{ route('app') }}">
-                    <br>
-                    <div><strong>NADHEM <br>WAKTEK</strong></div>
+        <div class="container-fluid ">
+            <nav class="navbar navbar-expand-lg navbar-light ms-5">
+                <a class="navbar-brand ms-5" href="{{ route('app') }}" style="margin-left: 50px">
+
+                    <H4><strong>NADHEM <br>
+                            WAKTEK</strong></H4>
                 </a>
                 <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbar"
                     aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,13 +58,13 @@
                 <div class="collapse navbar-collapse text-center" id="navbar">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/welcome') }}">Acceuil</a>
+                            <a class="nav-link" href="{{ route('app') }}">Acceuil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#feature">Nos <br>fonctionalités</a>
+                            <a class="nav-link page-scroll" href="#feature">Nos fonctionalités</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/imen') }}">A propos<br> de nous</a>
+                            <a class="nav-link" href="{{ url('/imen') }}">A propos de nous</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('/hiba') }}">Nos objectifs</a>
@@ -75,15 +76,26 @@
                     <div
                         class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
                         <a href="{{ route('login') }}" class="btn btn-primary ml-lg-3 primary-shadow">Connexion</a>
-
                         <a href="{{ route('register') }}" class="btn btn-primary ml-lg-3 primary-shadow">Inscription</a>
+                        <div class="form-submit-group">
+
+                            <span class="icon-reverse-wrapper">
+
+
+
+
+                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                            </span>
+                            </button>
+                        </div>
 
                     </div>
             </nav>
         </div>
     </section>
     <!-- /navigation -->
-
+    
     <!-- about us -->
     <section class="section-lg about pb-0">
         <div class="container">
@@ -92,23 +104,21 @@
                     <h2 class="section-title">A PROPOS DE NOUS</h2>
                 </div>
                 <div class="col-lg-12 mb-100">
-                    <p>Notre platforme va vous permettre d'avoir la facilité de définiser vos disponibilités , gérer vos
-                        tàches , ajouter vos notes suite à vos réunions et de manipuler votre calendrier selon votre
-                        choix .</p>
-                    <P>Dans notre application vous pouvez:
-                        -Ajoutez votre propre tàches .<BR>
-                        -Partager vos réunions selon votre disponibilitées .<BR>
-                        -Surveillez la façon dont votre contenu est reçu.<BR>
-                        -Prendre des notes au cours de votre reunion.<BR>
-                        -Organiser votre vie simplement .<BR>
-                        -Gagner du temps .<BR>
-                        -Organiser et d'attribuer des tâches.<BR>
-                        -Gérez facilement votre emploi du temps.<BR>
-                        -Coordonner les horaires en quelques secondes .</P>
-                </div>
+                 <p>Notre plateforme vous offre la facilité de définir vos disponibilités, gérer vos événements, prendre des notes , consulter vos statistiques et personnaliser votre calendrier selon vos préférences.
+                 Dans notre application, vous pouvez :<br>
+                    <br>
+                    - Ajouter vos propres tâches<br>
+                    - Partager vos réunions en fonction de votre disponibilité<br>
+                    - Surveiller la réception de votre contenu<br>
+                    - Prendre des notes pendant vos réunions<br>
+                    - Simplifier votre organisation quotidienne<br>
+                    - Gagner du temps<br>
+                    - Organiser et attribuer des tâches<br>
+                    - Gérer votre emploi du temps facilement<br>
+                    - Aussi vous pouvez consulter votre statistiques.<br>
+                     </div>
 
-            </div>
-        </div>
+    
         <!-- background shapes -->
         <img src="images/background-shape/green-dot.png" alt="background-shape" class="about-bg-1 up-down-animation">
         <img src="images/background-shape/blue-dot.png" alt="background-shape" class="about-bg-2 left-right-animation">
@@ -123,44 +133,20 @@
     </section>
     <!-- /about us -->
 
-    <!-- product -->
-    <section class="section product" style="background-image: url(images/backgrounds/about-bg.png);">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-title">Our Product</h2>
-                    <p class="mb-100">Far far away, behind the word mountains, far from the <br> countries Vokalia and
-                        Consonantia.</p>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-50">
-                    <a href="#"><img src="images/product/product-1.jpg" alt="product-img"
-                            class="rounded w-100 img-fluid"></a>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-50">
-                    <a href="#"><img src="images/product/product-2.jpg" alt="product-img"
-                            class="rounded w-100 img-fluid"></a>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-50">
-                    <a href="#"><img src="images/product/product-3.jpg" alt="product-img"
-                            class="rounded w-100 img-fluid"></a>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="#" class="btn btn-primary">Explore More Product</a>
-                </div>
-            </div>
-        </div>
-
         <!-- our vision -->
         <section class="section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2 class="section-title">Our Vision</h2>
-                        <p>Far far away, behind the word mountains,
-                            far from the countries Vokalia and Consonantia,
-                            there live the blind texts. Separated they
-                            live in Bookmarksgrove right at the coast of the
-                            Semantics, a large language ocean.</p>
+                        <h2 class="section-title">Notre vision </h2>
+                        <p>Cette application révolutionnaire offre une réelle valeur 
+                            ajoutée en proposant aux utilisateurs une expérience fluide et efficace dans
+                             la gestion de leurs horaires et événements. <br>
+                             Grâce à ses fonctionnalités de planification simplifiée et d'organisation optimisée,
+                              les utilisateurs pourront gérer leur emploi du temps de manière plus efficace. <br>
+                              Ils pourront consacrer davantage de temps aux événements essentielles, 
+                              ce qui améliorera leur productivité globale. En simplifiant la gestion des horaires et en facilitant la coordination des événements, cette application apporte une solution pratique et 
+                            efficace pour optimiser la gestion du temps et des ressources.</p>
                     </div>
                     <div class="col-md-6">
                         <img src="images/about/vision.png" alt="vision" class="img-fluid w-100">
@@ -170,50 +156,14 @@
         </section>
         <!-- /our vision -->
 
-        <!-- clients -->
-        <section class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-title">Our Clients</h2>
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item mx-5 mb-5"><a href="#"><img
-                                        src="images/clients-logo/client-1.png" alt="clients-logo"
-                                        class="img-fluid"></a></li>
-                            <li class="list-inline-item mx-5 mb-5"><a href="#"><img
-                                        src="images/clients-logo/client-2.png" alt="clients-logo"
-                                        class="img-fluid"></a></li>
-                            <li class="list-inline-item mx-5 mb-5"><a href="#"><img
-                                        src="images/clients-logo/client-3.png" alt="clients-logo"
-                                        class="img-fluid"></a></li>
-                            <li class="list-inline-item mx-5 mb-5"><a href="#"><img
-                                        src="images/clients-logo/client-4.png" alt="clients-logo"
-                                        class="img-fluid"></a></li>
-                            <li class="list-inline-item mx-5 mb-5"><a href="#"><img
-                                        src="images/clients-logo/client-5.png" alt="clients-logo"
-                                        class="img-fluid"></a></li>
-                            <li class="list-inline-item mx-5 mb-5"><a href="#"><img
-                                        src="images/clients-logo/client-6.png" alt="clients-logo"
-                                        class="img-fluid"></a></li>
-                            <li class="list-inline-item mx-5 mb-5"><a href="#"><img
-                                        src="images/clients-logo/client-7.png" alt="clients-logo"
-                                        class="img-fluid"></a></li>
-                            <li class="list-inline-item mx-5 mb-5"><a href="#"><img
-                                        src="images/clients-logo/client-8.png" alt="clients-logo"
-                                        class="img-fluid"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /clients -->
+       
     </section>
-    <!-- /product -->
+    <button onclick="scrollToTop()" id="scroll-button" title="Go to top">Up</button>
 
 
 
-    <!-- footer -->
-    <footer class="footer-section footer" style="background-image: url(images/backgrounds/footer-bg.png);">
+   <!-- footer -->
+   <footer class="footer-section footer" style="background-image: url(images/backgrounds/footer-bg.png);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
@@ -225,14 +175,19 @@
                 <!-- footer menu -->
                 <nav class="col-lg-8 align-self-center mb-5">
                     <ul class="list-inline text-lg-right text-center footer-menu">
-                        <li class="list-inline-item active"><a href="index.html">Home</a></li>
-                        <li class="list-inline-item"><a class="page-scroll" href="#feature">Feature</a></li>
-                        <li class="list-inline-item"><a href="about.html">About</a></li>
-                        <li class="list-inline-item"><a class="page-scroll" href="#team">Team</a></li>
-                        <li class="list-inline-item"><a class="page-scroll" href="#pricing">Pricing</a></li>
-                        <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+                        <li class="list-inline-item active"><a href="{{ route('app') }}">Acceuil</a></li>
+                        <li class="list-inline-item"><a class="page-scroll" href="#feature">Nos fonctionalités</a></li>
+                        <li class="list-inline-item"><a href="{{ url('/imen') }}">A propos de nous</a></li>
+                        <li class="list-inline-item"><a class="page-scroll" href="{{ url('/hiba') }}">Nos objectifs</a></li>
+                        
                     </ul>
                 </nav>
+
+                
+
+
+                 
+
                 <!-- footer social icon -->
                 <nav class="col-12">
                     <ul class="list-inline text-lg-right text-center social-icon">
@@ -240,11 +195,9 @@
                             <a class="facebook" href="#"><i class="ti-facebook"></i></a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="twitter" href="#"><i class="ti-twitter-alt"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="linkedin" href="#"><i class="ti-linkedin"></i></a>
-                        </li>
+    <a class="email" href="mailto:your-email@example.com"><i class="ti-email"></i></a>
+</li>
+                       
                         <li class="list-inline-item">
                             <a class="black" href="#"><i class="ti-github"></i></a>
                         </li>
@@ -268,6 +221,44 @@
     <!-- Main Script -->
     <script src="js/script.js"></script>
 
+    <script>
+    // JavaScript function to scroll to the top of the page
+    function scrollToTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
+    // Show or hide the scroll button based on scrolling position
+    window.onscroll = function() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("scroll-button").style.display = "block";
+      } else {
+        document.getElementById("scroll-button").style.display = "none";
+      }
+    };
+  </script>
+
+<style>
+    /* CSS for the scroll button */
+    #scroll-button {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      background-color: #663399;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 50%;
+    }
+
+    #scroll-button:hover {
+      background-color: #777;
+    }
+  </style>
 </body>
 
 </html>

@@ -47,8 +47,7 @@
                             <div class="header-search">
                                 <div class="input-group">
                                     <span class="input-group-addon search-close"><i class="ik ik-x"></i></span>
-                                    <input type="text" class="form-control">
-                                    <span class="input-group-addon search-btn"><i class="ik ik-search"></i></span>
+                                 
                                 </div>
                             </div>
                             <button type="button" id="navbar-fullscreen" class="nav-link"><i class="ik ik-maximize"></i></button>
@@ -92,13 +91,11 @@
                                         <img class="avatar"  src="{{ asset('images/images/profile.png') }}" alt=""></a>
 
                            @endif
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item" href="profile.html"><i class="ik ik-user dropdown-icon"></i> Profile</a>
-            <a class="dropdown-item" href="#"><i class="ik ik-settings dropdown-icon"></i> Settings</a>
-            <a class="dropdown-item" href="#"><span class="float-right"><span
-                        class="badge badge-primary">6</span></span><i class="ik ik-mail dropdown-icon"></i> Inbox</a>
-            <a class="dropdown-item" href="#"><i class="ik ik-navigation dropdown-icon"></i> Message</a>
-            <a class="dropdown-item" href="login.html"><i class="ik ik-power dropdown-icon"></i> Logout</a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="{{ url('/home') }}"><i class="ik ik-user dropdown-icon"></i> Profil</a>
+            <a class="dropdown-item" href="{{ url('/dashboard') }}"><i class="ik ik-bar-chart-2"></i> Dashboard </a>
+            <a class="dropdown-item" href="{{ url('/taskboard') }}"><i class="ik ik-server"></i> Taskboard</a>
+            <a class="dropdown-item" href="{{ url('/hel') }}"><i class="ik ik-calendar"></i> Ma calendrier</a>
         </div>
     </div>
 
@@ -201,23 +198,8 @@
                     <div class="row clearfix">
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="widget">
-                                <div class="widget-body">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="state">
-
-                                            <h6>Total mails</h6>
-                                            <h2>2</h2>
-                                        </div>
-                                        <div class="icon">
-                                            <i class="ik ik-award"></i>
-                                        </div>
-                                    </div>
-                                    <small class="text-small mt-10 d-block">..</small>
-                                </div>
-                                <div class="progress progress-sm">
-                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="62"
-                                        aria-valuemin="0" aria-valuemax="100" style="width: 62%;"></div>
-                                </div>
+                               
+                              
                             </div>
                         </div>
 
@@ -366,65 +348,16 @@
 
                                     </div>
 
-                                    <!-- partie mail -->
+                                   <!-- partie mail -->
 
                                     <div class="card">
                                         <div class="card-header row">
                                             <div class="col col-sm-3">
-                                                <div class="dropdown d-inline-block">
-                                                    <a class="btn-icon checkbox-dropdown dropdown-toggle"
-                                                        href="#" id="moreDropdown" role="button"
-                                                        data-toggle="dropdown" aria-haspopup="true"
-                                                        aria-expanded="false"></a>
-                                                    <div class="dropdown-menu" aria-labelledby="moreDropdown">
-                                                        <a class="dropdown-item" id="checkbox_select_all"
-                                                            href="javascript:void(0);">Select All</a>
-                                                        <a class="dropdown-item" id="checkbox_deselect_all"
-                                                            href="javascript:void(0);">Deselect All</a>
-                                                    </div>
-                                                </div>
-                                                <div class="card-options d-inline-block">
-                                                    <a href="#"><i class="ik ik-inbox"></i></a>
-                                                    <a href="#"><i class="ik ik-plus"></i></a>
-                                                    <a href="#"><i class="ik ik-rotate-cw"></i></a>
-                                                    <div class="dropdown d-inline-block">
-                                                        <a class="nav-link dropdown-toggle" href="#"
-                                                            id="moreDropdown" role="button" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false"><i
-                                                                class="ik ik-more-horizontal"></i></a>
-                                                        <div class="dropdown-menu dropdown-menu-right"
-                                                            aria-labelledby="moreDropdown">
-                                                            <a class="dropdown-item" href="#">Action</a>
-                                                            <a class="dropdown-item" href="#">More Action</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                               
+                                                
                                             </div>
                                             <div class="col col-sm-6">
-                                                <div class="card-search with-adv-search dropdown">
-                                                    <form action="">
-                                                        <input type="text" class="form-control"
-                                                            placeholder="Search.." required>
-                                                        <button type="submit" class="btn btn-icon"><i
-                                                                class="ik ik-search"></i></button>
-                                                        <button type="button" id="adv_wrap_toggler"
-                                                            class="adv-btn ik ik-chevron-down dropdown-toggle"
-                                                            data-toggle="dropdown" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false"></button>
-                                                        <div class="adv-search-wrap dropdown-menu dropdown-menu-right"
-                                                            aria-labelledby="adv_wrap_toggler">
-                                                            <div class="form-group">
-                                                                <input type="text" class="form-control"
-                                                                    placeholder="Full Name">
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <input type="email" class="form-control"
-                                                                    placeholder="Email">
-                                                            </div>
-                                                            <button class="btn btn-theme">Search</button>
-                                                        </div>
-                                                    </form>
-                                                </div>
+                                                
                                             </div>
                                             <div class="col col-sm-3">
                                                 <div class="card-options text-right">

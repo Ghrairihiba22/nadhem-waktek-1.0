@@ -63,7 +63,7 @@ public function user_edit()
         }
     
         
-        return view('hel',compact('user')) ;
+        return view('hel', compact('user')) ;
     }
     public function user_update(Request $request, $id)
     {

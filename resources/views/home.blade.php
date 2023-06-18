@@ -67,13 +67,13 @@
                                                     <nav class="mainmenu-nav">
                                                         <ul class="dashboard-mainmenu rbt-default-sidebar-list">
                                                             
-                                                            <li><a href="student-dashboard.html"><i
+                                                            <li><a href="{{ url('/dashboard') }}"><i
                                                                         class="feather-home"></i><span>Dashboard</span></a>
                                                             </li>
-                                                            <li><a href="student-profile.html"><i
+                                                            <li><a href="{{ url('/taskboard') }}"><i
                                                                         class="feather-user"></i><span>Taskboard</span></a>
                                                             </li>
-                                                            <li><a href="student-my-quiz-attempts.html"><i
+                                                            <li><a href="{{ url('/hel') }}"><i
                                                                         class="feather-help-circle"></i><span>Ma calendrier</span></a></li>
                                                         </ul>
                                                     </nav>
