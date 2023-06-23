@@ -64,14 +64,14 @@ $(document).ready(function (t, e, i) {
           if (response.success) {
             if (response.reload) {
               // Display a success message
-              alert('Event updated successfully');
+              alert('Événement mis à jour avec succès.');
 
               // Reload the page after the user clicks "OK"
               location.reload();
             } else {
               // Handle success without reloading
               // Display a success message or perform any other action
-              alert('Event updated successfully');
+              alert('Événement mis à jour avec succès.');
             }
           } else {
             // Handle failure

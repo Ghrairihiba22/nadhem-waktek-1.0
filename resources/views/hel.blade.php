@@ -82,33 +82,36 @@
                         <div class="top-menu d-flex align-items-center">
                             <div class="dropdown">
                             
-                                <div class="dropdown-menu dropdown-menu-right notification-dropdown" aria-labelledby="notiDropdown">
-                                  
-                                    <div class="footer">
-                                </div>
+                        <div class="footer">
                             </div>
-                          
-                            
+    </div>
+
+
+ 
+    
                             <button type="button" class="nav-link ml-10" id="apps_modal_btn" data-toggle="modal" data-target="#appsModal"><i class="ik ik-grid"></i></button>
                             <div class="dropdown">
-                                <a class="dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  @if($user->image)
+                               <a class="dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"aria-haspopup="true" aria-expanded="false">
+               @if($user->image)
             <img class="avatar" src="{{ asset('storage/images/' . $user->image) }}" alt=""></a>
 
                             @else
                                         <img class="avatar"  src="{{ asset('images/images/profile.png') }}" alt=""></a>
 
-                           @endif</a>
-                              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                           @endif
+
+
+           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
             <a class="dropdown-item" href="{{ url('/home') }}"><i class="ik ik-user dropdown-icon"></i> Profil</a>
             <a class="dropdown-item" href="{{ url('/dashboard') }}"><i class="ik ik-bar-chart-2"></i> Dashboard </a>
             <a class="dropdown-item" href="{{ url('/taskboard') }}"><i class="ik ik-server"></i> Taskboard</a>
             <a class="dropdown-item" href="{{ url('/hel') }}"><i class="ik ik-calendar"></i> Ma calendrier</a>
         </div>
-                            </div>
+    </div>
 
-                        </div>
-                    </div>
-                </div>
+    </div>
+    </div>
+    </div>
             </header>
              <div class="page-wrap">
                 <div class="app-sidebar colored">
@@ -291,7 +294,7 @@
                 </div>
                 
                 <label for="notes"></label>
-                    <a id="create-link" >Creation d'une note</a>
+                    <a id="create-link" >Création d'une note</a>
                     </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>

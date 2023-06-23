@@ -48,7 +48,7 @@
     <section class="fixed-top navigation">
         <div class="container-fluid ">
             <nav class="navbar navbar-expand-lg navbar-light ms-5">
-                <a class="navbar-brand ms-5" href="{{ route('app') }}" style="margin-left: 50px">
+                <a class="navbar-brand ms-5"  href="{{ url('welcome') }}" style="margin-left: 50px">
                     <img class="rounded-circle img-fluid" src="images/team/logo.png" style="width:170px;height:170px;">
 
                 </a>
@@ -60,7 +60,7 @@
                 <div class="collapse navbar-collapse text-center" id="navbar">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('app') }}">Acceuil</a>
+                            <a class="nav-link"  href="{{ url('welcome') }}">Acceuil</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link page-scroll" href="#feature">Nos fonctionalités</a>
@@ -144,6 +144,7 @@
     <!-- /hero-area -->
 
     <!-- feature -->
+    <br>
     <section class="section feature mb-0" id="feature">
         <div class="container">
             <div class="row">
@@ -179,6 +180,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- feature item -->
                 <div class="col-md-6 mb-80">
                     <div class="d-flex feature-item">
@@ -414,7 +416,7 @@
                 <!-- footer menu -->
                 <nav class="col-lg-8 align-self-center mb-5">
                     <ul class="list-inline text-lg-right text-center footer-menu">
-                        <li class="list-inline-item active"><a href="{{ route('app') }}">Acceuil</a></li>
+                        <li class="list-inline-item active"><a href=" {{ url('welcome') }}">Acceuil</a></li>
                         <li class="list-inline-item"><a class="page-scroll" href="#feature">Nos fonctionalités</a>
                         </li>
                         <li class="list-inline-item"><a href="{{ url('/imen') }}">A propos de nous</a></li>
@@ -436,9 +438,13 @@
                             <a class="facebook" href="#"><i class="ti-facebook"></i></a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="email" href="mailto:your-email@example.com"><i class="ti-email"></i></a>
+                            <br>
+                            <a class="email" href=https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox><i class="ti-email"></i>
+                            
+                            </a>
+                            nadhemwaktek2023@gmail.com
                         </li>
-
+                       
                         <li class="list-inline-item">
                             <a class="black" href="#"><i class="ti-github"></i></a>
                         </li>

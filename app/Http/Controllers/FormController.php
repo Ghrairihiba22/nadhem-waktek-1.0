@@ -111,11 +111,10 @@ public function destroy($id)
 
 
  public function editnote($id)
-    {
-          
-             $event = FormSubmission::findOrFail($id);
+    { 
+       $event = FormSubmission::findOrFail($id);
 
-        return view('notes.create', ['ev' => $event]);
+        return view('notes.create',  ['ev' => $event]);
     }
 
   public function updatenote(Request $request, $id)
@@ -162,7 +161,7 @@ public function setNoteToNull(Request $request, $id)
     $note = FormSubmission::findOrFail($id);
     $note->note = ''; // Set the note to an empty value
     $note->save();
-    return response()->json(['message' => 'Note deleted successfully']);
+    return response()->json(['message' => 'Note supprimée avec succès']);
 }
 
 
@@ -251,5 +250,11 @@ $formSubmissions = FormSubmission::whereHas('emails', function ($query) {
             'user'=>$user
         ]);
     }
+   
     
+    
+
 }
+
+
+ 

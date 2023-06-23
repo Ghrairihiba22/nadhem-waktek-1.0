@@ -82,8 +82,7 @@
     <button type="button" class="nav-link ml-10" id="apps_modal_btn" data-toggle="modal" data-target="#appsModal"><i
             class="ik ik-grid"></i></button>
     <div class="dropdown">
-        <a class="dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
+        <a class="dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"aria-haspopup="true" aria-expanded="false">
                @if($user->image)
             <img class="avatar" src="{{ asset('storage/images/' . $user->image) }}" alt=""></a>
 
@@ -91,6 +90,7 @@
                                         <img class="avatar"  src="{{ asset('images/images/profile.png') }}" alt=""></a>
 
                            @endif
+
       <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
             <a class="dropdown-item" href="{{ url('/home') }}"><i class="ik ik-user dropdown-icon"></i> Profil</a>
             <a class="dropdown-item" href="{{ url('/dashboard') }}"><i class="ik ik-bar-chart-2"></i> Dashboard </a>
